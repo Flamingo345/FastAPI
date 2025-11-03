@@ -24,7 +24,7 @@ class NewsRewriter:
     def __init__(self, api_token=None, workflow_id=None, space_id=None, base_url=None, execute_mode=None):
         """初始化API客户端"""
         # 使用与其他模块相同的API令牌和工作流ID
-        self.api_token = api_token or 'pat_HjVHMMp5PDZrzeHbdMeUBHAtB5noWVqRZOenezZtnuNUHJhrYoZTvkIkUpUG8idV'
+        self.api_token = api_token or ''
         self.base_url = base_url or 'https://api.coze.cn'
         # 使用工作流示例中的ID - 确认ID正确性
         self.workflow_id = workflow_id or '7540854742675619886'
