@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # API配置
-API_KEY = 'sk-eppztmqsnfqycmyeioweoaghfdxnpbavrwdyleqacxykymar'
+API_KEY = ''
 API_URL = 'https://api.siliconflow.cn/v1'
 API_MODEL = 'Qwen/Qwen2.5-32B-Instruct'
 
